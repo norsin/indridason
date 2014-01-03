@@ -1,22 +1,22 @@
 body {
     margin: 0;
-    font-family: "Arial", "Verdana", sans-serif;
+    font-family: serif;
     font-size: 13px;
-    color: #ebb845;
-background: #454252; /* Old browsers */
-background: -moz-linear-gradient(top,  #454252 0%, #0b0b0e 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454252), color-stop(100%,#0b0b0e)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #454252 0%,#0b0b0e 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #454252 0%,#0b0b0e 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #454252 0%,#0b0b0e 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #454252 0%,#0b0b0e 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454252', endColorstr='#0b0b0e',GradientType=0 ); /* IE6-9 */
-background-attachment: fixed;
+    color: #fff;
+    background: #162024; /* Old browsers */
+    background: -moz-linear-gradient(top,  #162024 0%, #233a51 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#162024), color-stop(100%,#233a51)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #162024 0%,#233a51 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #162024 0%,#233a51 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #162024 0%,#233a51 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #162024 0%,#233a51 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#162024', endColorstr='#233a51',GradientType=0 ); /* IE6-9 */
+    background-attachment: fixed;
 }
 
 .button {
 	display: block;
-	background: #ebb845;
+	background: #fff;
 	width: auto;
 	margin: 15px 0px;
 	text-align: center;
@@ -24,7 +24,6 @@ background-attachment: fixed;
 	text-decoration: none !important;
 	font-weight: bolder;
 	font-size: 1.05em;
-	font-family: sans-serif;
 	color: #443f50 !important;
 	border-radius: 10px;
 }
@@ -54,11 +53,10 @@ float: left;
 width: 100% !important;
 width: inherit;
 height: auto;
-font-family: serif;
 }
 
 h1.heading {
-	font-variant: small-caps;
+	text-transform: uppercase;
 	text-align: center;
 	font-size: 5em;
 	margin: 0;
@@ -66,12 +64,14 @@ h1.heading {
 	line-height: 0.9em;
 }
 
+
 .header h2.heading {
+    text-transform: uppercase;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0px;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
@@ -82,9 +82,7 @@ h1.heading {
 }
 
 .content .highlight {
-    color: #C0037A;
-    font-weight: bolder;
-    font-style: italic;
+    text-transform: uppercase;
 }
 
 .content.game {
@@ -93,6 +91,8 @@ h1.heading {
 }
 
 .content h3.heading {
+    text-transform: uppercase;
+    text-align: center;
     font-size: 1.8em;
     margin: 0px auto 10px 0px;
 }
@@ -109,10 +109,9 @@ h1.heading {
 }
 
 .content .bookCover {
-    width: 45%;
-    height: auto;
-    float: left;
-    margin: 10px 10px 10px 0px;
+	width: 45%;
+	margin-left: 27.5%;
+	height: auto;
 }
 
 .content .btnRow {
@@ -141,7 +140,6 @@ h1.heading {
 }
 
 #teilnahme {
-font-family: Arial;
 text-decoration: underline;
 color: #333333!important;
 font-size: 100%;
