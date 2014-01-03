@@ -7,9 +7,9 @@ panasonic|philips|phone|playbook|sagem|sharp|sie-|silk|smartphone|sony|symbian|t
 |up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i",$useragent))
 
 {
-header( 'Location: https://f-bilandia.de/luebbe/schraeg_verliebt/mobile/start.php' );
+header( 'Location: https://f-bilandia.de/luebbe/indridason/mobile/start.php' );
 } else {
-header( 'Location: https://f-bilandia.de/luebbe/schraeg_verliebt/fangate.php' );
+header( 'Location: https://f-bilandia.de/luebbe/indridason/index.php' );
 }
 
 ?>
