@@ -7,9 +7,9 @@ panasonic|philips|phone|playbook|sagem|sharp|sie-|silk|smartphone|sony|symbian|t
 |up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i",$useragent))
 
 {
-header( 'Location: https://f-bilandia.de/luebbe/hagenstoll2/index.html' );
+header( 'Location: https://f-bilandia.de/luebbe/indridason/mobile/index.html' );
 } else {
-header( 'Location: https://f-bilandia.de/luebbe/hagenstoll2/index.php' );
+header( 'Location: https://f-bilandia.de/luebbe/indridason/index.php' );
 }
 
 ?>

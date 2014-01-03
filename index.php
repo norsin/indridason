@@ -9,23 +9,23 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
-        <title>Hagen Stoll - So fühlt sich Leben an</title>
+        <title>Arnaldur Indriðason – Duell</title>
         <link rel="image_src" href="img/share.jpg">
-        <meta property="og:image" content="http://f-bilandia.de/luebbe/hagenstoll2/img/share.jpg"/>
-        <meta property="og:image:secure_url" content="https://f-bilandia.de/luebbe/hagenstoll2/img/share.jpg">
+        <meta property="og:image" content="http://f-bilandia.de/luebbe/indridason/img/share.jpg"/>
+        <meta property="og:image:secure_url" content="https://f-bilandia.de/luebbe/indridason/img/share.jpg">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="200">
         <meta property="og:image:height" content="200">
-        <meta property="og:title" content="Hagen Stoll - So fühlt sich Leben an"/>
-        <meta property="og:description" content="Hagen Stoll ist der Sänger der Band Haudegen. Aufgewachsen in Marzahn, beginnt er Mitte der 1990er seine Karriere in der deutschen Musikszene. Gewinne jetzt das Hörbuch!" />
-        <meta property="og:url" content="http://bit.ly/1bqmT3Z"/>
+        <meta property="og:title" content="Arnaldur Indriðason – Duell"/>
+        <meta property="og:description" content="Fan werden und den neuen Roman von Krimiautor Arnaldur Indriðason gewinnen!" />
+        <meta property="og:url" content=""/>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script type="text/javascript" src="js/vendor/jquery-1.8.2.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery-ui-1.10.3.min.js"></script>
         <script type="text/javascript">
             if (top == self) 
             { 
-                top.location = "https://www.facebook.com/LuebbeAudio/app_1425699374318205?ref=ts"; 
+                top.location = "https://www.facebook.com/BasteiLuebbe/app_1386809901574219?ref=ts"; 
             }
         </script>
     </head>
@@ -39,7 +39,7 @@
         <script type="text/javascript">
             window.fbAsyncInit = function() {
                 //Your app details here
-                FB.init({appId: '1425699374318205', status: true, cookie: true, xfbml: true});
+                FB.init({appId: '1386809901574219', status: true, cookie: true, xfbml: true});
                 //Resize the iframe when needed
                 FB.Canvas.setAutoResize();
             };
@@ -60,8 +60,8 @@
                 </div>
                 <div class="buch_start"></div>
                 <a href="" target="_blank" class="buch_link"></a>
-                <a href="mailto:facebook@luebbe.de?subject=Hagen%20Stoll" target="_blank" class="nav_element_bottom mitmachen"></a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://f-bilandia.de/luebbe/hagenstoll2/index.php" target="_blank" class="nav_element_bottom teilen_start"></a>
+                <a href="mailto:facebook@luebbe.de?subject=Duell" class="nav_element_bottom mitmachen"></a>
+                <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://f-bilandia.de/luebbe/indridason/weiche.php&p[images][0]=https://f-bilandia.de/luebbe/indridason/img/share.jpg&p[title]=Arnaldur%20Indri%C3%B0ason%20%E2%80%93%20Duell&p[summary]=Jetzt%20Fan%20werden%20und%20den%20neuen%20Roman%20von%20Krimiautor%20Arnaldur%20Indri%C3%B0ason%20gewinnen!" target="_blank" class="nav_element_bottom teilen_start"></a>
                 <div class="box" id="teilnahmebox">
                     <div id="close" class="closebutton"></div>
                     <p>
@@ -69,7 +69,7 @@
                                 Voraussetzung für die Teilnahme am Gewinnspiel
                             </u>
                         <br /><br />
-                            Voraussetzung für die Teilnahme am Gewinnspiel ist das Klicken auf den „Gefällt mir“-Button der Lübbe Audio Facebook-Seite sowie eine E-Mail mit der richtigen Lösung an facebook@luebbe.de. Ausgeschlossen von der Teilnahme sind Mitarbeiter und Agenturen der Bastei Lübbe AG, sowie angeschlossener Unternehmen und deren Angehörige.
+                            Voraussetzung für die Teilnahme am Gewinnspiel ist das Klicken auf den „Gefällt mir“-Button der Bastei Lübbe- oder Lübbe Audio-Facebook-Seite sowie eine E-Mail mit der richtigen Lösung an facebook@luebbe.de. Ausgeschlossen von der Teilnahme sind Mitarbeiter und Agenturen der Bastei Lübbe AG, sowie angeschlossener Unternehmen und deren Angehörige.
                         <br />
                             Die Teilnahme ist nur natürlichen Personen gestattet. Eine Sammelteilnahme (insbesondere unter Einbeziehung hierauf ausgerichteter Unternehmen) ist ausdrücklich ausgeschlossen. Teilnehmer müssen persönlich mitspielen und dürfen sich keinerlei technischer Hilfsmittel bedienen. Besteht der Verdacht, dass doch Hilfsprogramme o. ä. benutzt worden sind, behält sich der Verlag vor, die Mitspieler von der Teilnahme auszuschließen.</p>
                         <p>
@@ -78,14 +78,14 @@
                             </u>
                             <br /><br />
                             Wir verlosen:<br />
-                            10 Exemplare des Hörbuchs „So fühlt sich Leben an“ von Hagen Stoll
+                            Je 5 Exemplare des Buches und des Hörbuches von „Duell“
                         </p>
                         <p>
                             <u>
                                 Ermittlung der Gewinner
                             </u>
                             <br /><br />
-                            Die Preise werden unter allen Einsendungen verlost. Das Gewinnspiel beginnt am 10.10.2013 und endet am 10.11.2013. Die Gewinner werden nach Ablauf des Gewinnspiels per E-Mail benachrichtigt. Auf die Benachrichtigung weisen wir auf der Chronik der Facebook-Seite von Bastei Lübbe hin. Zum Abruf des Gewinns geben die Gewinner per E-Mail an facebook@luebbe.de ihren vollständigen Namen sowie ihre Adresse bekannt.
+                            Die Preise werden unter allen Einsendungen verlost. Das Gewinnspiel beginnt am XX.01.2014 und endet am 16.02.2014. Die Gewinner werden nach Ablauf des Gewinnspiels per E-Mail benachrichtigt. Zum Abruf des Gewinns geben die Gewinner per E-Mail an facebook@luebbe.de ihren vollständigen Namen sowie ihre Adresse bekannt.
                         </p>
                         <p>
                             <u>

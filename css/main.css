@@ -19,7 +19,7 @@ a {
 }
 
 .buch {
-	background: url(../img/background_hoerbuch.jpg) no-repeat;
+	background: url(../img/background_buch.jpg) no-repeat;
 }
 
 .autor {
@@ -54,13 +54,13 @@ a {
 
 .left {
 	background: url(../img/nav_gewinnspiel.png) no-repeat;
-	height: 108px;
+	height: 50px;
 	width: 260px;
-	top: -25px;
+	top: 0px;
 }
 
 .left:hover {
-	background-position: 0px -124px;
+	background-position: 0px -40px;
 }
 
 .active_nav_gs {
@@ -68,15 +68,15 @@ a {
 }
 
 .middle {
-	background: url(../img/nav_hoerbuch.png) no-repeat;
-	height: 129px;
-	width: 197px;
-	left: 270px;
-	top: -42px;
+	background: url(../img/nav_buch.png) no-repeat;
+	height: 44px;
+	width: 130px;
+	left: 280px;
+	top: 2px;
 }
 
 .middle:hover {
-	background-position: 0px -114px;
+	background-position: 1px -40px;
 }
 
 .active_nav_s {
@@ -85,26 +85,26 @@ a {
 
 .right {
 	background: url(../img/nav_autor.png) no-repeat;
-	height: 117px;
-	width: 250px;
-	left: 464px;
-	top: -30px;
+	height: 40px;
+	width: 275px;
+	left: 435px;
+	top: -2px;
 }
 
 .right:hover {
-	background-position: 0px -124px;
+	background-position: 1px -40px;
 }
 
 .active_nav_ve {
-	background-position: 0px -114px;
+	background-position: 0px -40px;
 }
 
 .active_nav_autor {
-	background-position: 0px -124px;
+	background-position: 0px -40px;
 }
 
 .active_nav_gewinnspiel {
-	background-position: 0px -124px;
+	background-position: 0px -40px;
 }
 
 .nav_element_bottom {
@@ -114,9 +114,9 @@ a {
 .mitmachen {
 	background: url(../img/button_mitmachen.png) no-repeat;
 	height: 40px;
-	width: 197px;
-	left: 221px;
-	top: 951px;
+	width: 243px;
+	left: 185px;
+	top: 971px;
 }
 
 .mitmachen:hover {
@@ -124,27 +124,27 @@ a {
 
 .teilen_start {
 	background: url(../img/button_teilen.png) no-repeat;
-	height: 48px;
-	width: 114px;
-	left: 459px;
-	top: 952px;
+	height: 40px;
+	width: 150px;
+	left: 435px;
+	top: 970px;
 }
 
 .teilen_autor {
 	background: url(../img/button_teilen.png) no-repeat;
 	height: 48px;
-	width: 110px;
-	left: 344px;
-	top: 952px;
+	width: 152px;
+	left: 328px;
+	top: 970px;
 }
 
 
 .teilen_buch {
 	background: url(../img/button_teilen.png) no-repeat;
 	height: 48px;
-	width: 110px;
-	left: 344px;
-	top: 952px;
+	width: 152px;
+	left: 328px;
+	top: 970px;
 }
 
 
@@ -154,14 +154,6 @@ a {
 	position: absolute;
 }
 
-.buch_start {
-	background: url(../img/buch.png) no-repeat;
-	height: 369px;
-	width: 365px;
-	position: absolute;
-	top: 120px;
-	left: 445px;
-}
 
 .buch_link {
 	position: absolute;
@@ -172,7 +164,7 @@ a {
 }
 
 .links_links {
-	position: absolute;
+	position: block;
 	width: 225px;
 	height: 160px;
 	top: 265px;
@@ -180,45 +172,79 @@ a {
 	left: 360px;
 }
 
-.link_hoerprobe {
-	background: url(../img/button_hoerprobe.png) no-repeat;
+
+.leseprobe {
 	position: absolute;
-	top: 73px;
-	left: 26px;
-	height: 50px;
-	width: 179px;
-	float: left;
-	text-align: left;
+	top: 190px;
+	left: 275px;
+	border: 0px solid #ffffff;
+	height: 18px;
+	width: 143px;
+	cursor: pointer;
 }
 
-.link_hoerbuch {
-	background: url(../img/button_hoerbuch.png) no-repeat;
+.mehrzumbuch {
 	position: absolute;
-	top: 102px;
-	left: 26px;
-	height: 47px;
-	width: 335px;
-	float: left;
-	text-align: left;
-	margin: 27px 0px;
+	top: 233px;
+	left: 195px;
+	border: 0px solid #ffffff;
+	height: 18px;
+	width: 225px;
+	cursor: pointer;
 }
 
-.link_ebook {
-	background: url(../img/button_ebook.png) no-repeat;
-	height: 33px;
-	width: 219px;
-	float: left;
-	text-align: left;
-	margin-left: 3px;
+.ebook {
+	position: absolute;
+	top: 277px;
+	left: 180px;
+	border: 0px solid #ffffff;
+	height: 18px;
+	width: 240px;
+	cursor: pointer;
 }
+
+.hoerprobe {
+	position: absolute;
+	top: 365px;
+	left: 211px;
+	border: 0px solid #ffffff;
+	height: 22px;
+	width: 141px;
+	cursor: pointer;
+}
+
+.mehrzumhoerbuch {
+	position: absolute;
+	top: 407px;
+	left: 75px;
+	border: 0px solid #ffffff;
+	height: 25px;
+	width: 278px;
+	cursor: pointer;
+}
+
+.audible {
+	position: absolute;
+	top: 450px;
+	left: 58px;
+	border: 0px solid #ffffff;
+	height: 109px;
+	width: 294px;
+	cursor: pointer;
+}
+
+
+
+
+
 
 #teilnahme {
-	font-family: Arial;
+	font-family: Times;
 	text-decoration: underline;
 	position: absolute;
 	color: #333333!important;
-	font-size: 77%;
-	top: 1097px;
+	font-size: 80%;
+	top: 1111px;
 	text-align: center;
 	width: 810px;
 	cursor: pointer;
@@ -228,7 +254,7 @@ a {
 #teilnahmebox {
 	margin: 40px;
 	z-index: 300;
-	opacity: 0.8;
+	opacity: 0.9;
 	color: white;
 	font-size: 90%;
 	padding: 5px;
@@ -243,14 +269,14 @@ a {
 }
 
 .ausschluss {
-	font-family: Arial;
+	font-family: Times;
 	top: 1056px;
-	font-size: 75%;
+	font-size: 80%;
 	background: #FFFFFF;
 	margin: 0;
-	padding: 0px 40px;
+	padding: 10px 40px;
 	height: 80px;
-	color: #333333!important;
+	color: #162024!important;
 	text-align: center;
 }
 
