@@ -264,8 +264,16 @@ a {
 }
 
 .close {
-	text-decoration: underline;
+	text-decoration: none;
 	cursor: pointer;
+	background: #eee;
+	font-weight: bolder;
+	color: #444;
+	width: auto;
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 5px 10px;
 }
 
 .ausschluss {

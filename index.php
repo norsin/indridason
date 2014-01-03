@@ -63,7 +63,7 @@
                 <a href="mailto:facebook@luebbe.de?subject=Duell" class="nav_element_bottom mitmachen"></a>
                 <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://f-bilandia.de/luebbe/indridason/weiche.php&p[images][0]=https://f-bilandia.de/luebbe/indridason/img/share.jpg&p[title]=Arnaldur%20Indri%C3%B0ason%20%E2%80%93%20Duell&p[summary]=Jetzt%20Fan%20werden%20und%20den%20neuen%20Roman%20von%20Krimiautor%20Arnaldur%20Indri%C3%B0ason%20gewinnen!" target="_blank" class="nav_element_bottom teilen_start"></a>
                 <div class="box" id="teilnahmebox">
-                    <div id="close" class="closebutton"></div>
+                <p><div class="close">Fenster schließen</div></p>
                     <p>
                             <u>
                                 Voraussetzung für die Teilnahme am Gewinnspiel
@@ -134,13 +134,10 @@
             $('#teilnahmebox').show('clip');
         });
 
-        $('#close').click(function() {
+        $('.close').click(function() {
             $('#teilnahmebox').hide('clip');
         });
 
-        $('#close2').click(function() {
-            $('#teilnahmebox').hide('clip');
-        });
-        </script>
+       </script>
     </body>
 </html>
