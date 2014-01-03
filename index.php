@@ -18,7 +18,7 @@
         <meta property="og:image:height" content="200">
         <meta property="og:title" content="Arnaldur Indriðason – Duell"/>
         <meta property="og:description" content="Fan werden und den neuen Roman von Krimiautor Arnaldur Indriðason gewinnen!" />
-        <meta property="og:url" content=""/>
+        <meta property="og:url" content="http://f-bilandia.de/luebbe/indridason/weiche.php"/>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script type="text/javascript" src="js/vendor/jquery-1.8.2.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery-ui-1.10.3.min.js"></script>
