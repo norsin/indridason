@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.wrapper {
+	background-repeat: no-repeat;
+	width: 810px;
+	height: 1050px;
+}
+
+.start {
+	background: url(../img/background_gewinnspiel.jpg) no-repeat;
+}
+
+.buch {
+	background: url(../img/background_hoerbuch.jpg) no-repeat;
+}
+
+.autor {
+	background: url(../img/background_autor.jpg) no-repeat;
+}
+
+.fangate {
+	background: url(../img/fangate.jpg) no-repeat;
+	width: 810px;
+	height: 1050px;
+}
+
+.nav {
+	height: 100px;
+	margin: 0px 40px;
+	position: absolute;
+}
+
+.top {
+	margin-top: 40px;
+	width: 730px;
+}
+
+.bottom {
+	top: 935px;
+	width: 730px;
+}
+
+.nav_element {
+	position: absolute;
+}
+
+.left {
+	background: url(../img/nav_gewinnspiel.png) no-repeat;
+	height: 108px;
+	width: 260px;
+	top: -25px;
+}
+
+.left:hover {
+	background-position: 0px -124px;
+}
+
+.active_nav_gs {
+	background-position: 0px -16px;
+}
+
+.middle {
+	background: url(../img/nav_hoerbuch.png) no-repeat;
+	height: 129px;
+	width: 197px;
+	left: 270px;
+	top: -42px;
+}
+
+.middle:hover {
+	background-position: 0px -114px;
+}
+
+.active_nav_s {
+	background-position: 0px -37px;
+}
+
+.right {
+	background: url(../img/nav_autor.png) no-repeat;
+	height: 117px;
+	width: 250px;
+	left: 464px;
+	top: -30px;
+}
+
+.right:hover {
+	background-position: 0px -124px;
+}
+
+.active_nav_ve {
+	background-position: 0px -114px;
+}
+
+.active_nav_autor {
+	background-position: 0px -124px;
+}
+
+.active_nav_gewinnspiel {
+	background-position: 0px -124px;
+}
+
+.nav_element_bottom {
+	position: absolute;
+}
+
+.mitmachen {
+	background: url(../img/button_mitmachen.png) no-repeat;
+	height: 40px;
+	width: 197px;
+	left: 221px;
+	top: 951px;
+}
+
+.mitmachen:hover {
+}
+
+.teilen_start {
+	background: url(../img/button_teilen.png) no-repeat;
+	height: 48px;
+	width: 114px;
+	left: 459px;
+	top: 952px;
+}
+
+.teilen_autor {
+	background: url(../img/button_teilen.png) no-repeat;
+	height: 48px;
+	width: 110px;
+	left: 344px;
+	top: 952px;
+}
+
+
+.teilen_buch {
+	background: url(../img/button_teilen.png) no-repeat;
+	height: 48px;
+	width: 110px;
+	left: 344px;
+	top: 952px;
+}
+
+
+.box {
+	width: 730px;
+	margin: 0px 40px;
+	position: absolute;
+}
+
+.buch_start {
+	background: url(../img/buch.png) no-repeat;
+	height: 369px;
+	width: 365px;
+	position: absolute;
+	top: 120px;
+	left: 445px;
+}
+
+.buch_link {
+	position: absolute;
+	height: 302px;
+	width: 200px;
+	top: 125px;
+	left: 560px;
+}
+
+.links_links {
+	position: absolute;
+	width: 225px;
+	height: 160px;
+	top: 265px;
+	display: inline-block;
+	left: 360px;
+}
+
+.link_hoerprobe {
+	background: url(../img/button_hoerprobe.png) no-repeat;
+	position: absolute;
+	top: 73px;
+	left: 26px;
+	height: 50px;
+	width: 179px;
+	float: left;
+	text-align: left;
+}
+
+.link_hoerbuch {
+	background: url(../img/button_hoerbuch.png) no-repeat;
+	position: absolute;
+	top: 102px;
+	left: 26px;
+	height: 47px;
+	width: 335px;
+	float: left;
+	text-align: left;
+	margin: 27px 0px;
+}
+
+.link_ebook {
+	background: url(../img/button_ebook.png) no-repeat;
+	height: 33px;
+	width: 219px;
+	float: left;
+	text-align: left;
+	margin-left: 3px;
+}
+
+#teilnahme {
+	font-family: Arial;
+	text-decoration: underline;
+	position: absolute;
+	color: #333333!important;
+	font-size: 77%;
+	top: 1097px;
+	text-align: center;
+	width: 810px;
+	cursor: pointer;
+	background: white;
+}
+
+#teilnahmebox {
+	margin: 40px;
+	z-index: 300;
+	opacity: 0.8;
+	color: white;
+	font-size: 90%;
+	padding: 5px;
+	width: 720px;
+	display: none;
+	background: black;
+}
+
+.close {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.ausschluss {
+	font-family: Arial;
+	top: 1056px;
+	font-size: 75%;
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0px 40px;
+	height: 80px;
+	color: #333333!important;
+	text-align: center;
+}
+
+.closebutton {
+	background: url(../img/close.png) no-repeat;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}

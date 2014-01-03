@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: "Arial", "Verdana", sans-serif;
+    font-size: 13px;
+    color: #fff;
+    background: #fff;
+}
+
+.button {
+    display: block;
+    background: #fff;
+    width: auto;
+    margin: 20px 10px;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color: #000 !important;
+    text-transform: uppercase;
+    border: 5px solid #000;
+}
+
+a img  { 
+   border-style: none; 
+   text-decoration: none; 
+}
+
+a:link,
+a:visited {
+    color: #444;
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: auto;
+    min-height: 600px;
+    float: left;
+    margin: 10px;
+    height: 100%;
+    top: 0;
+    background: #000;
+    border: 10px solid #000;
+}
+
+.header {
+    float: left;
+    width: 100% !important;
+    width: inherit;
+    height: auto;
+    background: #fff;
+    color: #000;
+}
+
+.header h1.heading {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 2.3em;
+    width: auto;
+}
+
+.header h2.heading {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+
+.content {
+    width: 100% !important;
+    float: left;
+    min-height: 435px;
+    background: #000;
+}
+
+.content .highlight {
+    color: #C0037A;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.content.game {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content h3.heading {
+    font-size: 1.8em;
+    margin: 0px auto 10px 0px;
+}
+
+.content.game h3.heading {
+    margin-top: 10px;
+}
+
+.content .bookIntro .text {
+    width: 48%;
+    min-height: 290px;
+    float: left;
+    margin: 0px 2px auto 0px;
+}
+
+.content .bookCover {
+    width: 45%;
+    height: auto;
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+.content .btnRow {
+    width: 100%;
+    margin: 3px 0px;
+    float: left;
+}
+
+.content .btnRow .button {
+    background: #000;
+    color: #fff !important;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-color: #fff;
+    width: auto;
+    clear: both;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+
+.content .btnRow .button.halfWidth {
+    width: 38.5%;
+    clear: none;
+    float: left;
+}
+
+.content .btnRow .button.halfWidth:nth-child(even) {
+    float: right;
+}
+
+.content .bookIntro .bookPrice {
+    display: block;
+    width: 100%;
+    float: left;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#teilnahme {
+font-family: Arial;
+text-decoration: underline;
+color: #333333!important;
+font-size: 100%;
+text-align: center;
+width: 100%;
+float: left;
+cursor: pointer;
+margin: 0;
+padding: 10px 0px;
+}
+
+#teilnahmebox {
+position: absolute;
+margin: 0;
+left: 0;
+top: 0;
+z-index: 300;
+opacity: 0.9;
+color: white;
+font-size: 90%;
+padding: 20px 5%;
+width: 90%;
+height: 300%;
+display: none;
+background: black;
+}
+
+.closeBtn {
+cursor: pointer;
+border: 3px solid #fff;
+width: auto;
+float: right;
+padding: 5px 10px 7px 10px;
+border-radius: 5px;
+font-weight: bolder;
+}
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .content.home {
+        min-height: 400px;
+        }
+    }
+    
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 840px) {
+        .wrapper {
+            min-height: 800px;
+        }
+    }
+    
+    
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 767px) and (max-width: 1024px) {
+        .wrapper {
+            min-height: 1000px;
+        }
+    }
