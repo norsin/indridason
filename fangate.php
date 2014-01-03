@@ -63,7 +63,7 @@ require_once 'facebook.php';
 
     <?php 
         
-        header("location: index.html");
+        header("location: index.php");
 
        
 
