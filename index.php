@@ -85,7 +85,7 @@
                                 Ermittlung der Gewinner
                             </u>
                             <br /><br />
-                            Die Preise werden unter allen Einsendungen verlost. Das Gewinnspiel beginnt am XX.01.2014 und endet am 16.02.2014. Die Gewinner werden nach Ablauf des Gewinnspiels per E-Mail benachrichtigt. Zum Abruf des Gewinns geben die Gewinner per E-Mail an facebook@luebbe.de ihren vollständigen Namen sowie ihre Adresse bekannt.
+                            Die Preise werden unter allen Einsendungen verlost. Das Gewinnspiel beginnt am 16.01.2014 und endet am 16.02.2014. Die Gewinner werden nach Ablauf des Gewinnspiels per E-Mail benachrichtigt. Zum Abruf des Gewinns geben die Gewinner per E-Mail an facebook@luebbe.de ihren vollständigen Namen sowie ihre Adresse bekannt.
                         </p>
                         <p>
                             <u>
