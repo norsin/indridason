@@ -54,7 +54,7 @@ a {
 
 .left {
 	background: url(../img/nav_gewinnspiel.png) no-repeat;
-	height: 50px;
+	height: 46px;
 	width: 260px;
 	top: 0px;
 }
@@ -76,7 +76,7 @@ a {
 }
 
 .middle:hover {
-	background-position: 1px -40px;
+	background-position: 0px -40px;
 }
 
 .active_nav_s {
@@ -85,14 +85,14 @@ a {
 
 .right {
 	background: url(../img/nav_autor.png) no-repeat;
-	height: 40px;
+	height: 46px;
 	width: 275px;
 	left: 435px;
 	top: -2px;
 }
 
 .right:hover {
-	background-position: 1px -40px;
+	background-position: 0px -40px;
 }
 
 .active_nav_ve {
