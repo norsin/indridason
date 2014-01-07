@@ -93,6 +93,6 @@
                 
             </div>
             <div id="teilnahme">Teilnahmebedingungen</div>
-
+	    </div>
 	</body>
 </html>
