@@ -24,7 +24,7 @@
                     <a href="game.php" class="losBtn button">Zum Gewinnspiel</a>
                 </div>
                 <div class="content">
-                    <img class="bookCover" src="img/bookcover.png">
+                    <img class="bookCover" src="../img/bookcover.png">
 		    <p class="text">Reykjavík 1972, der russische Schachweltmeister Boris Spasski tritt mitten im Kalten Krieg gegen seinen amerikanischen Herausforderer Bobby Fischer an. In der aufgeheizten Stimmung wird ein Jugendlicher in einem Reykjavíker Kino brutal erschlangen.</p>
                     <div class="btnRow">
                         <a href="../pdf/leseprobe_duell.pdf" target="_blank" class="leseprobe button fullWidth">Leseprobe</a>
