@@ -34,8 +34,6 @@
                     <div class="btnRow">
                         <a href="mailto:gewinnspiel@luebbe.de?subject=Duell" target="_blank" class="mitmachen button fullWidth">Mitmachen</a>
 			<a href="https://www.facebook.com/BasteiLuebbe" target="_blank" class="back button fullWidth">Zur&uuml;ck zu Facebook</a>
-                    </div>
-                </div>
 
          <div class="box" id="teilnahmebox">
                     <div id="close" class="closeBtn">x</div>
@@ -45,7 +43,7 @@
 
                             </u>
                         <br /><br />
-                            Voraussetzung für die Teilnahme am Gewinnspiel ist das Klicken auf den „Gefällt mir“-Button der Bastei Lübbe- oder Lübbe Audio-Facebook-Seite sowie eine E-Mail mit der richtigen Lösung an facebook@luebbe.de. Ausgeschlossen von der Teilnahme sind Mitarbeiter und Agenturen der Bastei Lübbe AG, sowie angeschlossener Unternehmen und deren Angehörige.
+                            Voraussetzung für die Teilnahme am Gewinnspiel ist das Klicken auf den „Gefällt mir“-Button der Bastei Lübbe- oder Lübbe Audio-Facebook-Seite sowie eine E-Mail mit der richtigen Lösung an gewinnspiel@luebbe.de. Ausgeschlossen von der Teilnahme sind Mitarbeiter und Agenturen der Bastei Lübbe AG, sowie angeschlossener Unternehmen und deren Angehörige.
                         <br />
                             Die Teilnahme ist nur natürlichen Personen gestattet. Eine Sammelteilnahme (insbesondere unter Einbeziehung hierauf ausgerichteter Unternehmen) ist ausdrücklich ausgeschlossen. Teilnehmer müssen persönlich mitspielen und dürfen sich keinerlei technischer Hilfsmittel bedienen. Besteht der Verdacht, dass doch Hilfsprogramme o. ä. benutzt worden sind, behält sich der Verlag vor, die Mitspieler von der Teilnahme auszuschließen.</p>
                         <p>
@@ -61,7 +59,7 @@
                                 Ermittlung der Gewinner
                             </u>
                             <br /><br />
-                            Die Preise werden unter allen Einsendungen verlost. Das Gewinnspiel beginnt am 16.01.2014 und endet am 16.02.2014. Die Gewinner werden nach Ablauf des Gewinnspiels per E-Mail benachrichtigt. Zum Abruf des Gewinns geben die Gewinner per E-Mail an facebook@luebbe.de ihren vollständigen Namen sowie ihre Adresse bekannt.
+                            Die Preise werden unter allen Einsendungen verlost. Das Gewinnspiel beginnt am 16.01.2014 und endet am 16.02.2014. Die Gewinner werden nach Ablauf des Gewinnspiels per E-Mail benachrichtigt. Zum Abruf des Gewinns geben die Gewinner per E-Mail an gewinnspiel@luebbe.de ihren vollständigen Namen sowie ihre Adresse bekannt.
                         </p>
                         <p>
                             <u>
@@ -93,6 +91,8 @@
                 
             </div>
             <div id="teilnahme">Teilnahmebedingungen</div>
-	    </div>
+	            </div>
+                </div>
+        </div>
 	</body>
 </html>
