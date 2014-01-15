@@ -1,0 +1,299 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.wrapper {
+	background-repeat: no-repeat;
+	width: 810px;
+	height: 1050px;
+}
+
+.start {
+	background: url(../img/background_gewinnspiel.jpg) no-repeat;
+}
+
+.buch {
+	background: url(../img/background_buch.jpg) no-repeat;
+}
+
+.autor {
+	background: url(../img/background_autor.jpg) no-repeat;
+}
+
+.fangate {
+	background: url(../img/fangate.jpg) no-repeat;
+	width: 810px;
+	height: 1050px;
+}
+
+.nav {
+	height: 100px;
+	margin: 0px 40px;
+	position: absolute;
+}
+
+.top {
+	margin-top: 40px;
+	width: 730px;
+}
+
+.bottom {
+	top: 935px;
+	width: 730px;
+}
+
+.nav_element {
+	position: absolute;
+}
+
+.left {
+	background: url(../img/nav_gewinnspiel.png) no-repeat;
+	height: 46px;
+	width: 260px;
+	top: 0px;
+}
+
+.left:hover {
+	background-position: 0px -40px;
+}
+
+.active_nav_gs {
+	background-position: 0px -16px;
+}
+
+.middle {
+	background: url(../img/nav_buch.png) no-repeat;
+	height: 44px;
+	width: 130px;
+	left: 280px;
+	top: 2px;
+}
+
+.middle:hover {
+	background-position: 0px -40px;
+}
+
+.active_nav_s {
+	background-position: 0px -37px;
+}
+
+.right {
+	background: url(../img/nav_autor.png) no-repeat;
+	height: 46px;
+	width: 275px;
+	left: 435px;
+	top: -2px;
+}
+
+.right:hover {
+	background-position: 0px -40px;
+}
+
+.active_nav_ve {
+	background-position: 0px -40px;
+}
+
+.active_nav_autor {
+	background-position: 0px -40px;
+}
+
+.active_nav_gewinnspiel {
+	background-position: 0px -40px;
+}
+
+.nav_element_bottom {
+	position: absolute;
+}
+
+.mitmachen {
+	background: url(../img/button_mitmachen.png) no-repeat;
+	height: 40px;
+	width: 243px;
+	left: 185px;
+	top: 971px;
+}
+
+.mitmachen:hover {
+}
+
+.teilen_start {
+	background: url(../img/button_teilen.png) no-repeat;
+	height: 40px;
+	width: 150px;
+	left: 435px;
+	top: 970px;
+}
+
+.teilen_autor {
+	background: url(../img/button_teilen.png) no-repeat;
+	height: 48px;
+	width: 152px;
+	left: 328px;
+	top: 970px;
+}
+
+
+.teilen_buch {
+	background: url(../img/button_teilen.png) no-repeat;
+	height: 48px;
+	width: 152px;
+	left: 328px;
+	top: 970px;
+}
+
+
+.box {
+	width: 730px;
+	margin: 0px 40px;
+	position: absolute;
+}
+
+
+.buch_link {
+	position: absolute;
+	height: 302px;
+	width: 200px;
+	top: 125px;
+	left: 560px;
+}
+
+.links_links {
+	position: block;
+	width: 225px;
+	height: 160px;
+	top: 265px;
+	display: inline-block;
+	left: 360px;
+}
+
+
+.leseprobe {
+	position: absolute;
+	top: 190px;
+	left: 275px;
+	border: 0px solid #ffffff;
+	height: 18px;
+	width: 143px;
+	cursor: pointer;
+}
+
+.mehrzumbuch {
+	position: absolute;
+	top: 233px;
+	left: 195px;
+	border: 0px solid #ffffff;
+	height: 18px;
+	width: 225px;
+	cursor: pointer;
+}
+
+.ebook {
+	position: absolute;
+	top: 277px;
+	left: 180px;
+	border: 0px solid #ffffff;
+	height: 18px;
+	width: 240px;
+	cursor: pointer;
+}
+
+.hoerprobe {
+	position: absolute;
+	top: 365px;
+	left: 211px;
+	border: 0px solid #ffffff;
+	height: 22px;
+	width: 141px;
+	cursor: pointer;
+}
+
+.mehrzumhoerbuch {
+	position: absolute;
+	top: 407px;
+	left: 75px;
+	border: 0px solid #ffffff;
+	height: 25px;
+	width: 278px;
+	cursor: pointer;
+}
+
+.audible {
+	position: absolute;
+	top: 450px;
+	left: 58px;
+	border: 0px solid #ffffff;
+	height: 109px;
+	width: 294px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+#teilnahme {
+	font-family: Times;
+	text-decoration: underline;
+	position: absolute;
+	color: #333333!important;
+	font-size: 80%;
+	top: 1111px;
+	text-align: center;
+	width: 810px;
+	cursor: pointer;
+	background: white;
+}
+
+#teilnahmebox {
+	margin: 40px;
+	z-index: 300;
+	opacity: 0.9;
+	color: white;
+	font-size: 90%;
+	padding: 5px;
+	width: 720px;
+	display: none;
+	background: black;
+}
+
+.close {
+	text-decoration: none;
+	cursor: pointer;
+	background: #eee;
+	font-weight: bolder;
+	color: #444;
+	width: auto;
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+.ausschluss {
+	font-family: Times;
+	top: 1056px;
+	font-size: 80%;
+	background: #FFFFFF;
+	margin: 0;
+	padding: 10px 40px;
+	height: 80px;
+	color: #162024!important;
+	text-align: center;
+}
+
+.closebutton {
+	background: url(../img/close.png) no-repeat;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}

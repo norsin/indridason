@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: serif;
+    font-size: 13px;
+    color: #fff;
+    background: #162024; /* Old browsers */
+    background: -moz-linear-gradient(top,  #162024 0%, #233a51 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#162024), color-stop(100%,#233a51)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #162024 0%,#233a51 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #162024 0%,#233a51 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #162024 0%,#233a51 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #162024 0%,#233a51 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#162024', endColorstr='#233a51',GradientType=0 ); /* IE6-9 */
+    background-attachment: fixed;
+}
+
+.button {
+	display: block;
+	background: #fff;
+	width: auto;
+	margin: 15px 0px;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none !important;
+	font-weight: bolder;
+	font-size: 1.05em;
+	color: #443f50 !important;
+	border-radius: 10px;
+}
+
+a img  { 
+   border-style: none; 
+   text-decoration: none; 
+}
+
+a:link,
+a:visited {
+    color: #444;
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: auto;
+    min-height: 600px;
+    float: left;
+    margin: 10px;
+    height: 100%;
+    top: 0;
+}
+
+.header {
+float: left;
+width: 100% !important;
+width: inherit;
+height: auto;
+}
+
+h1.heading {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	width: auto;
+	line-height: 0.9em;
+}
+
+
+.header h2.heading {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+.content {
+    width: 100% !important;
+    float: left;
+    min-height: 435px;
+}
+
+.content .highlight {
+    text-transform: uppercase;
+}
+
+.content.game {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content h3.heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0px auto 10px 0px;
+}
+
+.content.game h3.heading {
+    margin-top: 10px;
+}
+
+.content .bookIntro .text {
+    width: 48%;
+    min-height: 290px;
+    float: left;
+    margin: 0px 2px auto 0px;
+}
+
+.content .bookCover {
+	width: 45%;
+	margin-left: 27.5%;
+	height: auto;
+}
+
+.content .btnRow {
+    width: 100%;
+    margin: 3px 0px;
+    float: left;
+}
+
+
+.content .btnRow .button.halfWidth {
+    width: 38.5%;
+    clear: none;
+    float: left;
+}
+
+.content .btnRow .button.halfWidth:nth-child(even) {
+    float: right;
+}
+
+.content .bookIntro .bookPrice {
+    display: block;
+    width: 100%;
+    float: left;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#teilnahme {
+text-decoration: underline;
+color: #ffffff!important;
+font-size: 100%;
+text-align: center;
+width: 100%;
+float: left;
+cursor: pointer;
+margin: 0;
+padding: 20px 0px;
+}
+
+#teilnahmebox {
+position: absolute;
+margin: 0;
+left: 0;
+top: 0;
+z-index: 300;
+opacity: 0.9;
+color: white;
+font-size: 90%;
+padding: 20px 5%;
+width: 90%;
+height: 300%;
+display: none;
+background: black;
+}
+
+.closeBtn {
+cursor: pointer;
+border: 3px solid #fff;
+width: auto;
+float: right;
+padding: 5px 10px 7px 10px;
+border-radius: 5px;
+font-weight: bolder;
+}
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .content.home {
+        min-height: 400px;
+        }
+    }
+    
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 840px) {
+        .wrapper {
+            min-height: 800px;
+        }
+    }
+    
+    
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 767px) and (max-width: 1024px) {
+        .wrapper {
+            min-height: 1000px;
+        }
+    }
