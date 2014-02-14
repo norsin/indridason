@@ -91,6 +91,7 @@
                 
             </div>
             <div id="teilnahme">Teilnahmebedingungen</div>
+            <div id="impressum"><a href="http://luebbe.de/Ueberuns/Impressum" style="margin-left:15px;" target="blank" alt="Impressum Bastei Lübbe">Impressum</a></div>
 	            </div>
                 </div>
         </div>
