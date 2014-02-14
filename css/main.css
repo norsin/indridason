@@ -6,6 +6,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	outline: none;
+	color: #333333;
 }
 
 .wrapper {
@@ -234,7 +235,18 @@ a {
 }
 
 
-
+#impressum {
+	font-family: Times;
+	text-decoration: underline;
+	position: absolute;
+	color: #333333!important;
+	font-size: 80%;
+	top: 1135px;
+	text-align: center;
+	width: 810px;
+	cursor: pointer;
+	background: white;
+}
 
 
 
